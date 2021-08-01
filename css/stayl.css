@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.header{
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+overflow: hidden;
+}
+.logo{
+width: 20%;
+float: left;
+}
+.logo img{
+  height: 20px;
+}
+nav{
+width: 50%;
+float: right;
+}
+nav ul{
+list-style: none;
+overflow: hidden;
+float: right;
+}
+nav ul li{
+float: left;
+margin-left: 35px;
+}
+nav ul li a{
+text-decoration: none;
+font-size: 25px;
+text-transform: capitalize;
+color: black;
+}
+.content-section{
+width: 70%;
+margin-left: 15%;
+
+}
+.content-section h1{
+color: #0F2656;
+font-size: 45px;
+text-align: center;
+}
+.content-section h2{
+color: #008AFF;
+text-align: center;
+font-size: 50px;
+}
+.content-section p{
+  color: #0F2656;
+  text-align: center;
+}
+.project-content{
+overflow: hidden;
+}
+.left-content{
+float: left;
+width: 48%;
+overflow: hidden;
+}
+.left-content h1{
+color: #F15767;
+text-align: right;
+}
+.left-content p{
+ text-align: right;
+ color: #0F2656;
+}
+.right-content{
+width: 50%;
+float: right;
+}
+.right-content h1{
+  text-align: left;
+}
+.img{
+text-align: center;
+}
+.img img{
+width: 48%;
+margin-top: 10px;
+}
+.service-section{
+width: 90%;
+margin-left: 5%;
+overflow: hidden;
+}
+.service-1{
+ width: 30%;
+ background: #FDEBED;
+ float: left;
+ text-align: center;
+ /* padding: 30px 0; */
+ padding-top: 30px;
+}
+.service-1 img{
+
+width: 50%;
+}
+.service-1 h4{
+
+text-align: left;
+
+padding-left: 15px;
+}
+.service-1 p{
+
+text-align: left;
+
+padding-left: 15px;
+}
+.service-2{
+ width: 30%;
+ background: #EBF9F4;
+ float: left;
+ margin-left: 5%;
+ /* padding: 30px 0; */
+ padding-top: 30px;
+ text-align: center;
+}
+.service-2 img{
+
+width: 54%;
+}
+.service-2 h4{
+
+padding-left: 15px;
+
+text-align: left;
+}
+.service-2 p{
+
+text-align: left;
+
+padding-left: 15px;
+}
+.service-3{
+  width: 30%;
+  background: #FFF6E6;
+  float: right;
+  text-align: center;
+  /* padding: 30px 0; */
+  padding-top: 30px;
+}
+.service-3 img{
+
+width: 50%;
+}
+.service-3 h4{
+
+padding-left: 15px;
+
+text-align: left;
+}
+.service-3 p{
+
+text-align: left;
+
+padding-left: 15px;
+}
+footer{
+
+background: #008AFF;
+
+text-align: center;
+
+padding: 30px 0;
+}
+footer p{
+
+color: #9ED2FF;
+}
+footer p span{
+
+color: #fff;
+}
